@@ -62,8 +62,8 @@ exports.template = function(grunt, init, done) {
 
     // Generate package.json file, used by npm and grunt.
     init.writePackageJSON('package.json', {
-      name: 'jquery-plugin',
-      version: '0.0.0-ignored',
+      name: props.name,
+      version: props.version,
       npm_test: 'grunt qunit',
       // TODO: pull from grunt's package.json
       node_version: '>= 0.8.0',
@@ -75,7 +75,7 @@ exports.template = function(grunt, init, done) {
         'grunt-contrib-uglify': '0.1.1rc6',
         'grunt-contrib-watch': '0.2.0rc5',
         // TODO: REMOVE FOR 0.4.0 FINAL
-        'grunt': '0.4.0rc6',
+        'grunt': '0.4.0rc6'
       },
     });
 
