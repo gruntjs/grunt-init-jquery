@@ -1,10 +1,12 @@
 (function($) {
   /*
     ======== A Handy Little QUnit Reference ========
-    http://docs.jquery.com/QUnit
+    http://api.qunitjs.com/
 
     Test methods:
-      expect(numAssertions)
+      module(name, {[setup][ ,teardown]})
+      test(name, callback)
+      expect(numberOfAssertions)
       stop(increment)
       start(decrement)
     Test assertions:
@@ -15,7 +17,7 @@
       notDeepEqual(actual, expected, [message])
       strictEqual(actual, expected, [message])
       notStrictEqual(actual, expected, [message])
-      raises(block, [expected], [message])
+      throws(block, [expected], [message])
   */
 
   module('jQuery#awesome', {
