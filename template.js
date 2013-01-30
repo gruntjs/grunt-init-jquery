@@ -16,9 +16,21 @@ exports.notes = '_Project name_ should not contain "jquery" or "js" and ' +
   'should be a unique ID not already in use at plugins.jquery.com. _Project ' +
   'title_ should be a human-readable title, and doesn\'t need to contain ' +
   'the word "jQuery", although it may. For example, a plugin titled "Awesome ' +
-  'jQuery Plugin" might have the name "awesome-plugin". For more information ' +
-  'please see the documentation at ' +
-  'https://github.com/jquery/plugins.jquery.com/blob/master/docs/manifest.md';
+  'Plugin" might have the name "awesome-plugin".' +
+  '\n\n'+
+  'For more information, please see the following documentation:' +
+  '\n\n'+
+  'Naming Your Plugin      http://plugins.jquery.com/docs/names/\n' +
+  'Publishing Your Plugin  http://plugins.jquery.com/docs/publish/\n' +
+  'Package Manifest        http://plugins.jquery.com/docs/package-manifest/';
+
+// Template-specific notes to be displayed after question prompts.
+exports.after = 'You should now install project dependencies with _npm ' +
+  'install_. After that, you may execute project tasks with _grunt_. For ' +
+  'more information about installing and configuring grunt, please see ' +
+  'the Getting Started guide:' +
+  '\n\n' +
+  'http://gruntjs.com/getting-started';
 
 // Any existing file or directory matching this wildcard will cause a warning.
 exports.warnOn = '*';
