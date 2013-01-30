@@ -74,6 +74,7 @@ exports.template = function(grunt, init, done) {
         'grunt-contrib-concat': '0.1.2rc6',
         'grunt-contrib-uglify': '0.1.1rc6',
         'grunt-contrib-watch': '0.2.0rc5',
+        'grunt-contrib-clean': '0.4.0rc6',
         // TODO: REMOVE FOR 0.4.0 FINAL
         'grunt': '0.4.0rc6',
       },
