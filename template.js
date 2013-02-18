@@ -27,7 +27,7 @@ exports.notes = '_Project name_ should not contain "jquery" or "js" and ' +
 // Template-specific notes to be displayed after question prompts.
 exports.after = 'You should now install project dependencies with _npm ' +
   'install_. After that, you may execute project tasks with _grunt_. For ' +
-  'more information about installing and configuring grunt, please see ' +
+  'more information about installing and configuring Grunt, please see ' +
   'the Getting Started guide:' +
   '\n\n' +
   'http://gruntjs.com/getting-started';
@@ -80,15 +80,12 @@ exports.template = function(grunt, init, done) {
       // TODO: pull from grunt's package.json
       node_version: '>= 0.8.0',
       devDependencies: {
-        // TODO: ADJUST VERSIONS FOR 0.4.0 FINAL
-        'grunt-contrib-jshint': '0.1.1rc6',
-        'grunt-contrib-qunit': '0.1.1rc6',
-        'grunt-contrib-concat': '0.1.2rc6',
-        'grunt-contrib-uglify': '0.1.1rc6',
-        'grunt-contrib-watch': '0.2.0rc7',
-        'grunt-contrib-clean': '0.4.0rc6',
-        // TODO: REMOVE FOR 0.4.0 FINAL
-        'grunt': '0.4.0rc7',
+        'grunt-contrib-jshint': '~0.1.1',
+        'grunt-contrib-qunit': '~0.1.1',
+        'grunt-contrib-concat': '~0.1.2',
+        'grunt-contrib-uglify': '~0.1.1',
+        'grunt-contrib-watch': '~0.2.0',
+        'grunt-contrib-clean': '~0.4.0',
       },
     });
 
