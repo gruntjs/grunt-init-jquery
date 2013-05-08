@@ -81,7 +81,7 @@ exports.template = function(grunt, init, done) {
       node_version: '>= 0.8.0',
       devDependencies: {
         'grunt-contrib-jshint': '~0.1.1',
-        'grunt-contrib-qunit': '~0.1.1',
+        'grunt-contrib-qunit': '~0.2.1',
         'grunt-contrib-concat': '~0.1.2',
         'grunt-contrib-uglify': '~0.1.1',
         'grunt-contrib-watch': '~0.2.0',
