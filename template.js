@@ -74,6 +74,7 @@ exports.template = function(grunt, init, done) {
 
     // Generate package.json file, used by npm and grunt.
     init.writePackageJSON('package.json', {
+      private: true,
       name: 'jquery-plugin',
       version: '0.0.0-ignored',
       npm_test: 'grunt qunit',
